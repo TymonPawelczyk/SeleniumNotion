@@ -1,0 +1,98 @@
+Architektura komputerów
+1. Struktura i organizacja typowego systemu komputerowego.
+2. Budowa i działanie typowego procesora ogólnego przeznaczenia.
+3. Wykonywanie rozkazów przez procesor(y), przerwania, wyjątki.
+4. Dane i ich przetwarzanie w systemie komputerowym.
+5. Koncepcja „konwencjonalnej maszyny”, język maszynowy, asembler.
+6. Połączenia wewnątrz- i zewnątrz-systemowe, urządzenia wejścia/wyjścia.
+7. Realizacja przetwarzania równoległego w systemach komputerowych.
+8. Optymalizacja wydajności procesora(ów) i systemu komputerowego.
+Systemy operacyjne i programowanie systemowe
+1. Koncepcja systemu operacyjnego, typowa funkcjonalność, realizacje.
+2. Zarządzanie zasobami, abstrakcje systemowe.
+3. Procesy i wątki, wielozadaniowość/wielowątkowość, wielodostęp.
+4. Mechanizmy komunikacji wewnątrzsystemowej.
+5. Zarządzanie zbiorami danych, pliki, systemy plików.
+6. Interfejsy systemowe dla wykonywanego kodu, dla programisty, dla użytkownika.
+7. Wirtualizacja sprzętu i zasobów systemowych.
+8. Współczesne koncepcje budowy systemów operacyjnych.
+Sieci komputerowe
+1. Modele referencyjne systemu sieciowego, usługi, protokoły, interfejsy, standaryzacja.
+2. Koncepcja kanału komunikacyjnego, media komunikacyjne, współdzielenie medium.
+3. Sieci komputerowe z komutacją pakietów, enkapsulacja danych, przełączanie, przełączniki.
+4. Sieci komputerowe z komutacją obwodów, obwody wirtualne, tunelowanie.
+5. Trasowanie, sterowanie ruchem, obciążeniem, przepływnością, jakością usług.
+6. Typowe protokoły sieciowe i transportowe.
+7. Typowe usługi sieciowe, związane z nimi protokoły i aplikacje.
+8. Zagrożenia bezpieczeństwa w środowiskach sieciowych, ochrona i przeciwdziałanie.
+Algorytmy i struktury danych
+1. Pojęcie algorytmu.
+2. Klasyczne algorytmy:
+a. badanie, czy liczba jest liczbą pierwszą,
+b. algorytmy Euklidesa (przez odejmowanie i przez dzielenie),
+c. wyszukiwanie elementu w zbiorze uporządkowanym (wyszukiwanie binarne),
+d. znajdowanie najmniejszego lub największego elementu w zbiorze,
+e. znajdowanie jednocześnie najmniejszego i największego elementu w zbiorze (algorytm optymalny),
+f. obliczanie wartości wielomianu – schemat Hornera,
+g. szybkie podnoszenie do potęgi,
+h. wyszukiwanie wierzchołka 1D i 2D.
+3. Czasowa i pamięciowa złożoność obliczeniowa algorytmu. Złożoność optymistyczna, pesymistyczna, średnia.
+4. Notacja asymptotyczna i jej znaczenie w teorii algorytmów, rzędy wielkości funkcji.
+5. Algorytmy sortowania. Dokładny opis wraz z pseudokodem, sortowania bąbelkowego, przez wstawianie oraz sortowania przez wybieranie. Zasada działania sortowania przez scalanie oraz sortowania szybkiego. Właściwości wszystkich powyższych algorytmów oraz ich złożoności czasowe.
+6. Algorytmy rekurencyjne; zapisywanie wybranych klasycznych algorytmów w postaci rekurencyjnej.
+7. Metoda dziel i zwyciężaj. Metoda równego podziału, metoda Newtona-Raphsona (stycznych).
+8. Abstrakcyjne struktury danych: stosy, kolejki FIFO, kolejki priorytetowe, słowniki - ich implementacje (np tablice, listy dowiązane, kopce, drzewa binarne, drzewa BST) oraz zastosowania.
+9. Kodowanie Huffmana.
+10. Algorytm Kruskala.
+11. Tablice z haszowaniem (asocjacyjne). Rozwiązywanie kolizji - metoda łańcuchowa i adresowanie otwarte.
+12. Szyfrowanie Cezara.
+Programowanie
+1. Budowa języków programowania i ich podział.
+2. Podstawowe typy danych, typy podzielne, literały.
+3. Metoda siłowa. Zgadnij i sprawdź. Przeszukiwanie wyczerpujące.
+4. Modularyzacja programu: podprogramy. Funkcje oraz procedury. Deklaracja i definicja funkcji. Zasady wywoływania funkcji. Komunikacja z innymi podprogramami.
+5. Dekompozycja i abstrakcja. Parametry formalne i argumenty. Parametry domyślne.
+6. Zasięg i jego funkcja. Zmienne lokalne i globalne.
+7. Stos i jego funkcja.
+8. Programowanie defensywne. Wyjątki.
+9. Testowanie oprogramowania. Testy strukturalne i funkcjonalne.
+10. Błędy i ich podział.
+11. Dziel i zwyciężaj. Rekurencja. Przypadek podstawowy i część indukcyjna. Przykłady.
+12. Programowanie zorientowane obiektowo. Obiekty i ich identyfikatory, typy, tożsamość, stan. Instancje. Funkcje klas i metody instancji. Klasy abstrakcyjne.
+13. Dziedziczenie. Hierarchia klas, klasy bazowe i pochodne.
+14. Debugowanie, usuwanie błędów.
+15. Polimorfizm. Przeciążanie operatorów. Rzutowanie.
+Bazy danych
+1. Relacyjny model danych i algebra relacji: atrybuty, dziedziny atrybutów, krotki i relacje; operacje na relacjach.
+2. Język SQL – zapytania, selekcja, sortowanie, grupowanie, funkcje agregujące, podzapytania.
+3. Instrukcje DML – usuwanie, aktualizacja i dołączanie danych.
+4. Instrukcje DDL – tworzenie tabel, modyfikacje struktury tabel, usuwanie tabel.
+5. Zależności funkcyjne. Aksjomaty Armstronga. Integralność danych (klucze, klucze obce) Opcje propagacji.
+6. Postacie normalne: 1NF, 2NF, 3NF, BCNF, 4NF. Normalizacja.
+7. Indeksy. Widoki. Procedury składowane. Wyzwalacze.
+8. Modelowanie danych: model logiczny (diagram związków encji - ERD) i model relacyjny
+9. Systemy transakcyjne i analityczne - podstawowe różnice
+10. Transakcje. Własności ACID. Poziomy izolacji.
+11. Administrowanie użytkownikami bazy danych i ochrona danych.
+Elementy grafiki komputerowej
+1. Modele barw.
+2. Metody kompresji obrazów.
+3. Formaty plików graficznych.
+4. Rzutowanie.
+5. Rendering.
+6. Rasteryzacja algorytmy rysowania prymitywów graficznych (w szczególności algorytm rysowania odcinka) antyaliasing.
+7. Generowanie sceny przy pomocy “śledzenia promieni”.
+8. Algorytmy eliminowania powierzchni zasłoniętych.
+9. Modele oświetlenia.
+10. Materiały, tekstury.
+Podstawy Sztucznej Inteligencji
+1. Rodzaje uczenia maszynowego: Uczenie nadzorowane, nienadzorowane, zewzmocnieniem.
+2. Model Regresji logistycznej. Metoda gradientu prostego i jej znaczenie w minimalizacji funkcji kosztów.
+3. Znaczenie normalizacji danych w technikach uczenia maszynowego.
+4. Koncepcja Naiwnego Klasyfikatora Bayesa.
+5. Klasyfikator minimalno-odległościowy i algorytm k-najbliższych sąsiadów, model leniwego uczenia.
+6. Algorytm PCA w redukcji wymiarowości danych.
+7. Znaczenie i idea metody walidacji krzyżowej w metodach uczenia maszynowego.
+8. Porównanie algorytmów k-najbliższych sąsiadów (k-NN) oraz SVM (maszyny wektorównośnych).
+9. Modele drzew decyzyjnych i lasów losowych.
+10. Model Perceptronu.
