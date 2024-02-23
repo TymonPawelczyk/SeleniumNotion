@@ -7,7 +7,7 @@ kolumny = []
 komorki = []
 
 
-with open("Udemy\Pracownia\pytania.txt", "r", encoding="utf-8") as file1:
+with open("pytania.txt", "r", encoding="utf-8") as file1:
     read_content = file1.readlines()
     for i in read_content:
         
@@ -23,15 +23,15 @@ with open("Udemy\Pracownia\pytania.txt", "r", encoding="utf-8") as file1:
             else:
                 komorki.append(i)
     
-# data = {key: [] for key in kolumny}
-# data['Architektura komputerów\n'].extend(komorki[:8])
-# data['Systemy operacyjne i programowanie systemowe\n'].extend(komorki[8:16])
-# data['Sieci komputerowe\n'].extend(komorki[16:24])
-# data['Algorytmy i struktury danych\n'].extend(komorki[24:44])
-# data['Programowanie\n'].extend(komorki[44:59])
-# data['Bazy danych\n'].extend(komorki[59:70])
-# data['Elementy grafiki komputerowej\n'].extend(komorki[70:80])
-# data['Podstawy Sztucznej Inteligencji\n'].extend(komorki[80:90])
+data = {key: [] for key in kolumny}
+data['Architektura komputerów\n'].extend(komorki[:8])
+data['Systemy operacyjne i programowanie systemowe\n'].extend(komorki[8:16])
+data['Sieci komputerowe\n'].extend(komorki[16:24])
+data['Algorytmy i struktury danych\n'].extend(komorki[24:44])
+data['Programowanie\n'].extend(komorki[44:59])
+data['Bazy danych\n'].extend(komorki[59:70])
+data['Elementy grafiki komputerowej\n'].extend(komorki[70:80])
+data['Podstawy Sztucznej Inteligencji\n'].extend(komorki[80:90])
 
 
 # for x in data.keys():
@@ -59,3 +59,5 @@ df.loc[70:80,1] = 'Elementy grafiki komputerowej'
 df.loc[80:90,1] = 'Podstawy Sztucznej Inteligencji'
 
 print(df)
+
+print(kolumny)
