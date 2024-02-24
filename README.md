@@ -9,6 +9,6 @@ Ten program w języku Python automatyzuje wprowadzanie danych do aplikacji webow
 'pip install selenium'
 - Sterownik przeglądarki internetowej kompatybilny z Selenium. Na przykład [ChromeDriver](https://chromedriver.chromium.org) (wykorzystywana w projekcie) dla
  przeglądarki Google Chrome. 
- [!IMPORTANT]
+>[!IMPORTANT]
 > Upewnij się, że wersja sterownika jest kompatybilna z wersją Twojej przeglądarki.
 
