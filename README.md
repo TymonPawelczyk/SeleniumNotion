@@ -6,7 +6,7 @@ Ten program w języku Python automatyzuje wprowadzanie danych do aplikacji webow
 
 - Zainstalowany Python 3 na Twoim systemie.
 - Biblioteka Selenium dla Pythona. Możesz ją zainstalować za pomocą pip:
-'pip install selenium'
+`pip install selenium`
 - Sterownik przeglądarki internetowej kompatybilny z Selenium. Na przykład [ChromeDriver](https://chromedriver.chromium.org) (wykorzystywana w projekcie) dla
  przeglądarki Google Chrome. 
 >[!IMPORTANT]
